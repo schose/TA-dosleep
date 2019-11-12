@@ -1,0 +1,13 @@
+[role_testrole]
+cumulativeRTSrchJobsQuota = 0
+cumulativeSrchJobsQuota = 0
+srchJobsQuota = 300
+srchMaxTime = 8640000
+
+[role_muchsearches]
+importRoles = user
+srchJobsQuota = 10
+
+[role_lesssearches]
+importRoles = muchsearches
+srchJobsQuota = 1 

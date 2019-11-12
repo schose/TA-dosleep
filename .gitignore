@@ -1,0 +1,4 @@
+lookups/*
+*.pyc
+.vscode
+.DS_Store
